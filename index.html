@@ -3,6 +3,29 @@
 <head>
   <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <style>
+    @media screen and (max-device-width: 640px) {
+      h1 {
+        margin-top: 100px;
+        font-size: 190px;
+      }
+
+      a {
+        font-size: 35px;
+      }
+    }
+
+    @media screen and (min-device-width: 640px) {
+      h1 {
+        margin-top: 250px;
+        font-size: 120px;
+
+      }
+
+      a {
+        font-size: 25px;
+      }
+    }
+
     body {
       background: black;
       text-align: center;
@@ -10,16 +33,17 @@
     }
 
     h1 {
-      margin-top: 50px;
+
       -webkit-transition: text-shadow 1s ease;
       -moz-transition: text-shadow 1s ease;
       -o-transition: text-shadow 1s ease;
       transition: text-shadow 1s ease;
       text-shadow: 4px -1px 0px #69c9d0, 7px -1px 0px #ee1c52;
       color: white;
-      font-size: 90px;
+
 
     }
+
 
     span {
       -webkit-transition: color 2s ease;
@@ -54,8 +78,8 @@
       style="color:#13dfee">L</span><span>I</span><span>N</span><span>K</span><span>.</span></a>
   <a target="_blank" href="https://medium.com/@apuravchauhan"><span>M</span><span>E</span><span
       style="color:#ee0642">D</span><span>.</span></a>
-  <a target="_blank" href="https://twitter.com/apuravchauhan"><span>T</span><span>W</span><span style="color:#69c9d0">I</span><span
-      style="color:#13dfee">.</span></a>
+  <a target="_blank" href="https://twitter.com/apuravchauhan"><span>T</span><span>W</span><span
+      style="color:#69c9d0">I</span><span style="color:#13dfee">.</span></a>
   <script>
     window.setInterval(function () {
       var plusOrMinus = Math.random() < 0.5 ? -1 : 1;
